@@ -15,4 +15,4 @@ Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), forcats (>= 0.4.0), fs (>= 1.3.2)
           (>= 1.1)
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: f7fcd7126ddbc0389b88869468d4eed7
+MD5sum: 69d87b818095a3e0c9ec3a353ac04069
