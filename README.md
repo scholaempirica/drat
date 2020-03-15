@@ -31,7 +31,8 @@ This may be preferable to using e.g. `remotes::install_github("scholaempirica/re
 
 Currently the repository contains the following packages:
 
-- [czso](https://github.com/scholaempirica/reschola) for reproducible research at Schola Empirica
+- [reschola](https://github.com/scholaempirica/reschola) for reproducible research at Schola Empirica
+- [redoc](https://github.com/scholaempirica/reschola), a [custom patch](https://github.com/petrbouchal/redoc/commit/69cbc91be1ea699360bfa7d6e86429abae8f842b) of [noamross/redoc](https://github.com/noamross/redoc) fixing documentatio and an RStudio addin
 
 Source code for all the packages is hosted on [Github](https://github.com/scholaempirica).
 
