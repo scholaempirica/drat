@@ -7,7 +7,7 @@ License: MIT + file LICENSE
 MD5sum: 69c813b0497028222a6a406d96119bea
 
 Package: reschola
-Version: 0.2.0
+Version: 0.2.1
 Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
           3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr,
           purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1),
@@ -15,4 +15,4 @@ Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), forcats (>= 0.4.0), fs (>= 1.3.2)
           (>= 1.1)
 Suggests: extrafont (>= 0.17), knitr
 License: MIT + file LICENSE
-MD5sum: 9bcf0c36d90f3b7a4c154eb4c03df453
+MD5sum: 7bc1027741f8ecbf2fd0043146373105
