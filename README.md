@@ -3,7 +3,8 @@
 Install packages from this repository like so (example for the `reschola` package):
 
 ``` r
-install.packages("reschola", repos = "https://scholaempirica.github.io/drat/")
+options(repos = c(getOption("repos"), "scholaempirica" = "scholaempirica.github.io/drat"))
+install.packages("reschola")
 ```
 
 Or, to gain more direct access to this package repository, put this in your .Rprofile:
@@ -21,7 +22,7 @@ options(repos=r)})
 install.packages("reschola")
 ```
 
-even though the `reschola` package is not on CRAN.
+without any prior commands, even though the `reschola` package is not on CRAN.
 
 This may be preferable to using e.g. `remotes::install_github("scholaempirica/reschola")` since you
 
