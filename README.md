@@ -35,6 +35,8 @@ Currently the repository contains the following packages:
 - [reschola](https://github.com/scholaempirica/reschola) for reproducible research at Schola Empirica
 - [redoc](https://github.com/scholaempirica/redoc), a [custom patch](https://github.com/petrbouchal/redoc/commit/69cbc91be1ea699360bfa7d6e86429abae8f842b) of [noamross/redoc](https://github.com/noamross/redoc) fixing documentatio and an RStudio addin
 
+You can run `available.packages(repos = 'https://scholaempirica.github.io/drat')` to see what is included.
+
 Source code for all the packages is hosted on [Github](https://github.com/scholaempirica).
 
 The repository has been created using the `drat` package by @eddelbuettel; see more at <http://dirk.eddelbuettel.com/code/drat.html>
