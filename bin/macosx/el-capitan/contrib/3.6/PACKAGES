@@ -4,7 +4,7 @@ Imports: rmarkdown (>= 1.12), knitr, officer (>= 0.3.2), diffobj (>= 0.2.3), str
           xml2, whoami, yaml, jsonlite, sessioninfo
 Suggests: spelling, testthat, roxygen2, covr, pkgdown, rstudioapi
 License: MIT + file LICENSE
-MD5sum: 69c813b0497028222a6a406d96119bea
+MD5sum: aa6d6320bb7f7fba7edee681262bde9b
 
 Package: reschola
 Version: 0.2.6
