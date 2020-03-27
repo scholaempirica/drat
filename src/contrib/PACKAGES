@@ -8,7 +8,7 @@ MD5sum: 0eee443bc942c4b4be8bf06308c65850
 NeedsCompilation: no
 
 Package: reschola
-Version: 0.2.7
+Version: 0.2.8
 Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>=
           1.3.2), ggplot2 (>= 3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>=
           0.6.0), magrittr, officer (>= 0.3.8), png (>= 0.1.7), purrr (>= 0.3.3), readxl (>=
@@ -17,5 +17,5 @@ Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 
           writexl (>= 1.1)
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: 5b7df39bc10e1bf44283e68530511b5d
+MD5sum: 9c0e7bb4457a8719e7c036032d8fd93d
 NeedsCompilation: no
