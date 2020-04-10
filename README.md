@@ -3,7 +3,7 @@
 Install packages from this repository like so (example for the `reschola` package):
 
 ``` r
-options(repos = c(getOption("repos"), "scholaempirica" = "scholaempirica.github.io/drat"))
+options(repos = c(getOption("repos"), "scholaempirica" = "https://scholaempirica.github.io/drat"))
 install.packages("reschola")
 ```
 
@@ -12,7 +12,7 @@ Or, to gain more direct access to this package repository, put this in your .Rpr
 ```r
 local({r <- getOption("repos")
 # add drat repo
-r["scholaempirica"] <- "scholaempirica.github.io/drat"
+r["scholaempirica"] <- "https://scholaempirica.github.io/drat"
 options(repos=r)})
 ```
 
