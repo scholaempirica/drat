@@ -1,12 +1,3 @@
-Package: redoc
-Version: 0.1.0.9000
-Imports: rmarkdown (>= 1.12), knitr, officer (>= 0.3.2), diffobj (>= 0.2.3), stringi,
-          mime, xml2, whoami, yaml, jsonlite, sessioninfo
-Suggests: spelling, testthat, roxygen2, covr, pkgdown, rstudioapi
-License: MIT + file LICENSE
-MD5sum: 0eee443bc942c4b4be8bf06308c65850
-NeedsCompilation: no
-
 Package: reschola
 Version: 0.2.11
 Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs
@@ -17,5 +8,3 @@ Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 
           tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1), writexl (>= 1.1)
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: 10ede27e391bfa71afae0d946595429b
-NeedsCompilation: no
