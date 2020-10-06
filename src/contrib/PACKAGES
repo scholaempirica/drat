@@ -1,21 +1,180 @@
 Package: redoc
 Version: 0.1.0.9000
-Imports: rmarkdown (>= 1.12), knitr, officer (>= 0.3.2), diffobj (>= 0.2.3), stringi,
-          mime, xml2, whoami, yaml, jsonlite, sessioninfo
+Imports: rmarkdown (>= 1.12), knitr, officer (>= 0.3.2), diffobj (>= 0.2.3), stringi, mime, xml2, whoami, yaml, jsonlite,
+             sessioninfo
 Suggests: spelling, testthat, roxygen2, covr, pkgdown, rstudioapi
 License: MIT + file LICENSE
 MD5sum: 0eee443bc942c4b4be8bf06308c65850
 NeedsCompilation: no
 
 Package: reschola
+Version: 0.1.0.9000
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>= 3.3.0), googledrive (>=
+             1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>=
+             0.1.0.9000), rmarkdown (>= 2.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>=
+             1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 5d9f37a24bd11195386478072a67ec4d
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.1.0
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>= 3.2.1), googledrive (>=
+             1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>=
+             0.1.0.9000), rmarkdown (>= 2.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>=
+             1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 0ecc8531f80f875927705eaf820425fa
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.0
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>= 3.3.0), googledrive (>=
+             1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>=
+             0.1.0.9000), rmarkdown (>= 2.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>=
+             1.5.1), writexl (>= 1.1)
+Suggests: extrafont (>= 0.17), knitr
+License: MIT + file LICENSE
+MD5sum: 0a98f80655908a1b0965a03aabcea774
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.1
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>= 3.3.0), googledrive (>=
+             1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>=
+             0.1.0.9000), rmarkdown (>= 2.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>=
+             1.5.1), writexl (>= 1.1)
+Suggests: extrafont (>= 0.17), knitr
+License: MIT + file LICENSE
+MD5sum: 555f637a54e1d469126af04193605c56
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.10
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             scales (>= 1.1.0), sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis
+             (>= 1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: e5be695f71ec06546b9860bc80a03591
+NeedsCompilation: no
+
+Package: reschola
 Version: 0.2.11
-Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs
-          (>= 1.3.2), ggplot2 (>= 3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0),
-          hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png (>= 0.1.7), purrr (>=
-          0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1),
-          rstudioapi, scales (>= 1.1.0), sessioninfo (>= 1.1.1), stringr (>= 1.4.0),
-          tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1), writexl (>= 1.1)
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             scales (>= 1.1.0), sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis
+             (>= 1.5.1), writexl (>= 1.1)
 Suggests: knitr
 License: MIT + file LICENSE
 MD5sum: 10ede27e391bfa71afae0d946595429b
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.12
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             scales (>= 1.1.0), sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis
+             (>= 1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 62c3d25469c0355911eca2f6cb4459f0
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.2.9000
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, purrr (>= 0.3.3), readxl
+             (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>=
+             1.0.0), usethis (>= 1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 7242888093b79f536a1395cd5c560906
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.2
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, purrr (>= 0.3.3), readxl
+             (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>=
+             1.0.0), usethis (>= 1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 6cda70a96a731f95a884c2b17a7f1054
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.3
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, purrr (>= 0.3.3), readxl
+             (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>=
+             1.0.0), usethis (>= 1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 443836b72a175cf2a75cc88f4c18db1e
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.5
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1), writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 5fa6035e56139d42809cab58d979c52e
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.6
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1),
+             writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: b76e21ab78ba00f950297b4f90cf68b0
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.7
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1),
+             writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 5b7df39bc10e1bf44283e68530511b5d
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.8
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1),
+             writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 9c0e7bb4457a8719e7c036032d8fd93d
+NeedsCompilation: no
+
+Package: reschola
+Version: 0.2.9
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>= 1.3.2), ggplot2 (>=
+             3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png
+             (>= 0.1.7), purrr (>= 0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi,
+             sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1),
+             writexl (>= 1.1)
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 5b260dcf3771e5e938a07959562bea59
 NeedsCompilation: no
